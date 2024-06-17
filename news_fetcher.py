@@ -13,3 +13,5 @@ def fetch_news(category, from_date, to_date):
                                           language='en',
                                           sort_by='relevancy')
     return all_articles['articles']
+
+
